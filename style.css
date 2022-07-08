@@ -1,0 +1,57 @@
+/* header */
+#header {
+  color: lightgreen;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 10pt;
+  padding: 5px 0px;
+}
+
+.col {
+  padding: 2px;
+}
+
+.card {
+  width: 100%;
+  background-color: #ececec;
+}
+/* cards that weather info will go into */
+.forecast-card {
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 8pt;
+}
+
+.search-section {
+  height: 100%;
+}
+/* list of previous cities */
+.cityList {
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 2px;
+  background-color: lightgrey;
+}
+
+.cityList:hover {
+  background-color: green;
+  color: #fff;
+}
+
+#fiveDayHeader {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 5px;
+}
